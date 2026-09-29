@@ -1,7 +1,6 @@
 import gTeaching from "@/assets/g-teaching.jpg";
 import gSpeaking from "@/assets/p-speaking.jpg";
 import gWorkshop from "@/assets/g-workshop.jpg";
-import gSummit from "@/assets/g-summit.jpg";
 import gVolunteer from "@/assets/g-volunteer.jpg";
 import { Reveal, Section, SectionHeading } from "./primitives";
 
@@ -9,7 +8,6 @@ const photos = [
   { src: gWorkshop, alt: "Moderating a workshop", caption: "MC" },
   { src: gSpeaking, alt: "Presenting at an event", caption: "Embassy Visit" },
   { src: gTeaching, alt: "Shooting for educational content", caption: "Shooting" },
-  { src: gSummit, alt: "International youth summit delegates on stage", caption: "Youth Summit" },
   {
     src: gVolunteer,
     alt: "Representing Cambodia on international stage",
