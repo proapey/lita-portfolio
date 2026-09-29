@@ -98,8 +98,8 @@ export function Hero() {
             className="mt-9 flex flex-wrap gap-3"
           >
             <a
-              href="src/assets/Solita-Thearos-CV.pdf.pdf"
-              download="src/assets/Solita-Thearos-CV.pdf.pdf"
+              href="/Solita-Thearos-CV.pdf"
+              download="Solita-Thearos-CV.pdf"
               className="group inline-flex items-center gap-2 rounded-2xl bg-primary px-5 py-3 text-sm font-semibold text-primary-foreground shadow-glow transition-transform hover:-translate-y-0.5"
             >
               <Download className="size-4" />
