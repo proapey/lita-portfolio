@@ -2,6 +2,7 @@ import { useEffect, useState } from "react";
 import { motion, useReducedMotion } from "motion/react";
 import { ArrowRight, Download, GraduationCap, Mail, Sparkles } from "lucide-react";
 import portrait from "@/assets/portrait.jpg";
+import cvUrl from "@/assets/Solita-Thearos-CV.pdf.pdf?url";
 import { profile, stats } from "@/lib/portfolio-data";
 import { Counter } from "./primitives";
 
@@ -98,7 +99,7 @@ export function Hero() {
             className="mt-9 flex flex-wrap gap-3"
           >
             <a
-              href="/Solita-Thearos-CV.pdf"
+              href={cvUrl}
               download="Solita-Thearos-CV.pdf"
               className="group inline-flex items-center gap-2 rounded-2xl bg-primary px-5 py-3 text-sm font-semibold text-primary-foreground shadow-glow transition-transform hover:-translate-y-0.5"
             >
